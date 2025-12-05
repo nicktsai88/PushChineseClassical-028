@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>(推與敲) 第28篇 王積薪聞棋 - 互動式古文學習 (本地完整版)</title>
+    <title>(推與敲) 第28篇 王積薪聞棋 - 互動式古文學習 (GitHub版)</title>
     <!-- 載入 Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- 載入 Marked.js -->
@@ -210,7 +210,7 @@
                     <span class="font-bold text-xl tracking-wider">古文互動教室</span>
                 </div>
                 <div class="hidden md:block text-sm opacity-80">
-                    本地完整版 (Offline)
+                    GitHub Pages 版
                 </div>
             </div>
         </div>
@@ -343,7 +343,8 @@
                         "自謂": { zhuyin: "ㄗˋ ㄨㄟˋ", type: "動詞", def: "自認為。" },
                         "逆旅": { zhuyin: "ㄋㄧˋ ㄌㄩˇ", type: "名詞", def: "旅館。" }
                     },
-                    imageData: "reading_segment_1.jpg"
+                    // Modified image path for GitHub Pages
+                    imageData: "images/reading_segment_1.jpg"
                 },
                 {
                     original: "既滅燭，聞主人媼隔壁呼其婦曰：「良宵碓遣，可棋一局乎？」",
@@ -354,7 +355,7 @@
                         "媼": { zhuyin: "ㄠˇ", type: "名詞", def: "老婦人。" },
                         "碓遣": { zhuyin: "ㄉㄨㄟˋ ㄑㄧㄢˇ", type: "動詞", def: "難以排遣（時間）。" }
                     },
-                    imageData: "reading_segment_2.jpg"
+                    imageData: "images/reading_segment_2.jpg"
                 },
                 {
                     original: "婦曰：「諾。」媼曰：「第幾道下子矣。」",
@@ -364,7 +365,7 @@
                         "諾": { zhuyin: "ㄋㄨㄛˋ", type: "嘆詞", def: "答應的聲音，表示同意。" },
                         "第幾道": { zhuyin: "ㄉㄧˋ ㄐㄧˇ ㄉㄠˋ", type: "名詞", def: "圍棋盤上的線路位置。" }
                     },
-                    imageData: "reading_segment_3.jpg"
+                    imageData: "images/reading_segment_3.jpg"
                 },
                 {
                     original: "婦曰：「第幾道下子矣。」各言數十。",
@@ -374,7 +375,7 @@
                         "各言": { zhuyin: "ㄍㄜˋ ㄧㄢˊ", type: "動詞", def: "各自說出。" },
                         "數十": { zhuyin: "ㄕㄨˋ ㄕˊ", type: "數量詞", def: "幾十次（指回合）。" }
                     },
-                    imageData: "reading_segment_4.jpg"
+                    imageData: "images/reading_segment_4.jpg"
                 },
                 {
                     original: "媼曰：「爾敗矣。」婦曰：「伏局。」",
@@ -384,7 +385,7 @@
                         "爾": { zhuyin: "ㄦˇ", type: "代詞", def: "妳。" },
                         "伏局": { zhuyin: "ㄈㄨˊ ㄐㄩˊ", type: "動詞", def: "認輸。伏通服。" }
                     },
-                    imageData: "reading_segment_5.jpg"
+                    imageData: "images/reading_segment_5.jpg"
                 },
                 {
                     original: "積薪暗記，明日覆其勢，",
@@ -394,7 +395,7 @@
                         "暗記": { zhuyin: "ㄢˋ ㄐㄧˋ", type: "動詞", def: "默默記下。" },
                         "覆": { zhuyin: "ㄈㄨˋ", type: "動詞", def: "復盤、重演。" }
                     },
-                    imageData: "reading_segment_6.jpg"
+                    imageData: "images/reading_segment_6.jpg"
                 },
                 {
                     original: "意思皆所不及也。",
@@ -404,7 +405,7 @@
                         "意思": { zhuyin: "ㄧˋ ㄙ", type: "名詞", def: "棋步的深意、構思。" },
                         "不及": { zhuyin: "ㄅㄨˋ ㄐㄧˊ", type: "動詞", def: "趕不上、不如。" }
                     },
-                    imageData: "reading_segment_7.jpg"
+                    imageData: "images/reading_segment_7.jpg"
                 }
             ],
             quiz: [
@@ -813,7 +814,7 @@
             start: {
                 id: 'start',
                 text: "你叫王積薪，是當朝圍棋國手。你自認為棋藝已經登峰造極，天下無敵。這次你奉命前往京師（長安）。天色已晚，你來到一家偏僻的旅館。",
-                imageData: "rpg_start.jpg",
+                imageData: "images/rpg_start.jpg",
                 choices: [
                     { text: "大聲呼喝店家準備上房", next: "arrogant_entry" },
                     { text: "低調投宿，早點休息", next: "humble_entry" }
@@ -822,7 +823,7 @@
             arrogant_entry: {
                 id: 'arrogant_entry',
                 text: "你大搖大擺地走進店裡，心想：「我可是國手，誰敢怠慢？」店家安排你住下。夜深了，你吹熄蠟燭準備睡覺，忽然聽到隔壁有聲音。",
-                imageData: "rpg_arrogant_entry.jpg",
+                imageData: "images/rpg_arrogant_entry.jpg",
                 choices: [
                     { text: "仔細聆聽", next: "listen" },
                     { text: "大聲喝斥吵鬧", next: "bad_rude" }
@@ -831,7 +832,7 @@
             humble_entry: {
                 id: 'humble_entry',
                 text: "你安靜地住下。雖然你自視甚高，但在外還是保持禮貌。夜深人靜，隔壁房傳來了說話聲。",
-                imageData: "rpg_humble_entry.jpg",
+                imageData: "images/rpg_humble_entry.jpg",
                 choices: [
                     { text: "仔細聆聽", next: "listen" }
                 ]
@@ -839,7 +840,7 @@
             listen: {
                 id: 'listen',
                 text: "你聽到老婦人對媳婦說：「良宵難遣，可棋一局乎？」媳婦答應了。你心想：「這黑燈瞎火的，怎麼下棋？難道有夜光棋盤？」",
-                imageData: "rpg_listen.jpg",
+                imageData: "images/rpg_listen.jpg",
                 choices: [
                     { text: "繼續偷聽她們怎麼下", next: "blind_chess" },
                     { text: "不屑一顧，睡覺去", next: "bad_ignorant" }
@@ -848,7 +849,7 @@
             blind_chess: {
                 id: 'blind_chess',
                 text: "只聽老婦人說：「第幾道下子矣。」媳婦也回：「第幾道下子矣。」兩人一來一往，竟然是在下盲棋！你大吃一驚，這可是極高深的境界！",
-                imageData: "rpg_blind_chess.jpg",
+                imageData: "images/rpg_blind_chess.jpg",
                 choices: [
                     { text: "努力用心記下棋譜", next: "memorize" },
                     { text: "覺得她們在胡說八道", next: "bad_doubt" }
@@ -857,7 +858,7 @@
             memorize: {
                 id: 'memorize',
                 text: "你屏氣凝神，將她們口述的每一步都在腦海中演練。下了幾十手後，老婦人說：「妳輸了。」媳婦說：「我認輸。」局終。",
-                imageData: "rpg_memorize.jpg",
+                imageData: "images/rpg_memorize.jpg",
                 choices: [
                     { text: "天亮後覆盤驗證", next: "replay" }
                 ]
@@ -865,7 +866,7 @@
             replay: {
                 id: 'replay',
                 text: "第二天一早，你拿出棋盤，照著昨晚的記憶擺了一遍。你驚駭地發現，這局棋的殺招與構思，精妙絕倫，根本是你無法企及的境界！",
-                imageData: "rpg_replay.jpg",
+                imageData: "images/rpg_replay.jpg",
                 choices: [
                     { text: "向老婦人請教", next: "good_end" },
                     { text: "羞愧地悄悄離開", next: "good_end_humble" }
@@ -874,7 +875,7 @@
             good_end: {
                 id: 'good_end',
                 text: "【Good Ending: 虛心求教】你向老婦人行大禮，請教棋藝。雖然她們隱居不願多說，但你從此收起狂傲之心，棋藝更上一層樓，成為真正的一代宗師。",
-                imageData: "rpg_good_end.jpg",
+                imageData: "images/rpg_good_end.jpg",
                 choices: [{ text: "重新體驗", next: "start" }],
                 isEnding: true,
                 win: true
@@ -882,7 +883,7 @@
              good_end_humble: {
                 id: 'good_end_humble',
                 text: "【Good Ending: 知恥近乎勇】你明白了人外有人的道理，默默離開。從此你不再自吹自擂，而是潛心鑽研，終成大器。",
-                imageData: "rpg_good_end_humble.jpg",
+                imageData: "images/rpg_good_end_humble.jpg",
                 choices: [{ text: "重新體驗", next: "start" }],
                 isEnding: true,
                 win: true
@@ -890,21 +891,21 @@
             bad_rude: {
                 id: 'bad_rude',
                 text: "【Bad Ending: 錯失良機】你大吼一聲：「吵什麼吵！」隔壁安靜了。你睡了個好覺，但也永遠錯過了見識絕世棋藝的機會，繼續做著井底之蛙。",
-                imageData: "rpg_bad_rude.jpg",
+                imageData: "images/rpg_bad_rude.jpg",
                 choices: [{ text: "重來", next: "start" }],
                 isEnding: true
             },
             bad_ignorant: {
                 id: 'bad_ignorant',
                 text: "【Bad Ending: 自大蒙蔽】你認為鄉野村婦懂什麼棋，翻身睡去。你的自大讓你對身邊的高手視而不見，棋藝也就止步於此了。",
-                imageData: "rpg_bad_ignorant.jpg",
+                imageData: "images/rpg_bad_ignorant.jpg",
                 choices: [{ text: "重來", next: "start" }],
                 isEnding: true
             },
             bad_doubt: {
                 id: 'bad_doubt',
                 text: "【Bad Ending: 疑神疑鬼】你覺得這兩個人肯定是瘋子。第二天你嘲笑了店家一番就走了。殊不知你嘲笑的是比你高明百倍的高手。",
-                imageData: "rpg_bad_doubt.jpg",
+                imageData: "images/rpg_bad_doubt.jpg",
                 choices: [{ text: "重來", next: "start" }],
                 isEnding: true
             }
